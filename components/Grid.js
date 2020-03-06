@@ -1,9 +1,8 @@
-import React from 'react'
 import Component from './index'
 import SbEditable from 'storyblok-react'
 
 const Grid = ({blok}) => (
-  <SbEditable content="props.content">
+  <SbEditable content={blok}>
     <div className="util__flex">
       {blok.columns.map((blok) =>
         <Component blok={blok} />
