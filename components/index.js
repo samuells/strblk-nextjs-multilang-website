@@ -2,11 +2,13 @@ import Teaser from './Teaser'
 import Feature from './Feature'
 import Grid from './Grid'
 import Placeholder from './Placeholder'
+import Slide from './Slide'
 
 const Components = {
   'teaser': Teaser,
   'feature': Feature,
-  'grid': Grid
+  'grid': Grid,
+  'slide': Slide
 }
 
 const Component = ({blok}) => {
